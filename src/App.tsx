@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./components/globalStyles";
 import { lightTheme, darkTheme } from "./components/Theme";
@@ -10,6 +10,7 @@ const App = () => {
   const savedTheme = localStorage.getItem("theme");
 
   const themeToggler = () => {
+    console.log(theme);
     if (savedTheme === "light") {
       setTheme("dark");
       localStorage.setItem("theme", "dark");

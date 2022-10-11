@@ -48,28 +48,66 @@ const HeroSection = (props: any) => {
           }}
         >
           <li style={{ marginInlineEnd: "15px", cursor: "pointer" }}>
-            <img
-              src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png"
-              alt="stackoverflow"
-            />
+            <a
+              href="https://stackoverflow.com/users/12581501/ganiu-adeleke"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png"
+                alt="stackoverflow"
+              />
+            </a>
           </li>
           <li style={{ marginInlineEnd: "15px", cursor: "pointer" }}>
-            <img
-              src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"
-              alt="stackoverflow"
-            />
+            <a
+              href="https://www.instagram.com/abayomiganiy"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"
+                alt="stackoverflow"
+              />
+            </a>
           </li>
           <li style={{ marginInlineEnd: "15px", cursor: "pointer" }}>
-            <img
-              src="https://img.icons8.com/doodle/40/000000/github--v1.png"
-              alt="stackoverflow"
-            />
+            <a
+              href="https://github.com/aderibigbeganiu"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/doodle/40/000000/github--v1.png"
+                alt="stackoverflow"
+              />
+            </a>
           </li>
           <li style={{ marginInlineEnd: "15px", cursor: "pointer" }}>
-            <img
-              src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"
-              alt="stackoverflow"
-            />
+            <a
+              href="https://www.linkedin.com/in/aderibigbeganiu"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"
+                alt="stackoverflow"
+              />
+            </a>
+          </li>
+          <li style={{ marginInlineEnd: "15px", cursor: "pointer" }}>
+            <a
+              href="https://www.twitter.com/abayomiganiy"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/doodle/452/old-twitter-logo.png"
+                alt="stackoverflow"
+                height={40}
+                width={40}
+              />
+            </a>
           </li>
         </ul>
         <button

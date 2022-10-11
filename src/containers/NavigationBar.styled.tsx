@@ -7,6 +7,7 @@ export const NavigationBarContainer = styled.div`
   width: 100vw;
   height: 70px;
   position: fixed;
+  top: 0;
 
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 `;
@@ -117,7 +118,7 @@ export const NavLinksLi = styled.li`
 
   @media only screen and (min-width: 1024px) {
     font-size: 15px;
-    margin-inline: 15px;
+    margin-inline: 8px;
     padding: 10px 20px;
     cursor: pointer;
 

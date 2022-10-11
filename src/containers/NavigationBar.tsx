@@ -60,7 +60,7 @@ const useScrollspy = (ids: string[], offset: number = 0) => {
 
 const NavigationBar = (props: any) => {
   const navIds = ["home", "about", "services", "projects", "contact"];
-  const activeId = useScrollspy(navIds, 80); // 54 is navigation height
+  const activeId = useScrollspy(navIds, 70);
   const { themeToggler, theme } = props;
   const [showMobileNav, setShowMobileNav] = useState(false);
 
@@ -77,6 +77,7 @@ const NavigationBar = (props: any) => {
             <NavLinksLi
               style={{
                 backgroundColor: `${id === activeId ? "#3ba2fc" : ""}`,
+                color: `${id === activeId ? "#fff" : ""}`,
                 borderRadius: "0.375rem",
               }}
               onClick={() => {

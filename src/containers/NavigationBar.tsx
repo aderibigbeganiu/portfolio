@@ -77,7 +77,15 @@ const NavigationBar = (props: any) => {
             <NavLinksLi
               style={{
                 backgroundColor: `${id === activeId ? "#3ba2fc" : ""}`,
-                color: `${id === activeId ? "#fff" : ""}`,
+                color: `${
+                  theme === "dark"
+                    ? id === activeId
+                      ? "#000"
+                      : ""
+                    : id === activeId
+                    ? "#fff"
+                    : ""
+                }`,
                 borderRadius: "0.375rem",
               }}
               onClick={() => {
